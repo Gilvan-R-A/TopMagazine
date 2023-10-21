@@ -2,7 +2,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/<nome_repositorio_github>/"
+  base: "/TopMagazine"
 //   plugins: [],
 //   resolve: {
   
