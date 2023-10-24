@@ -1,24 +1,19 @@
-// import { resolve } from "path";
+
+
+import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/TopMagazine"
-//   plugins: [],
-//   resolve: {
-  
-//   },
-//   css: {
-//     postcss: {
-//       plugins: [tailwindcss],
-//     },
-//   },
-//   build: {
-//     rollupOptions: {
-//       input: {
-//         main: resolve(__dirname, "./index.html"),
-//         checkout: resolve(__dirname, "./checkout.html"),
-//         pedidos: resolve(__dirname, "./pedidos.html"),
-//       },
-//     },
-//   },
+  base: "/TopMagazine/",
+  plugins: [],
+  resolve: {
+    /*something*/
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "./index.html"),
+      },
+    },
+  },
 });
